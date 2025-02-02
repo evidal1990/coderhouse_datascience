@@ -30,7 +30,7 @@ class FileProcessor():
         with open(path, "w") as file:
             file.write(dataframe.describe().T.to_string())
 
-    def write_df_column_stats(self, dataframe, column_name):
+    def write_df_column_stats(self, dataframe):
         if dataframe.empty:
             raise Exception("Dataframe sem dados para serem lidos")
 
