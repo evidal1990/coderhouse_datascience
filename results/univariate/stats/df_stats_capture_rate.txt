@@ -1,4 +1,0 @@
-count     801
-unique     34
-top        45
-freq      250

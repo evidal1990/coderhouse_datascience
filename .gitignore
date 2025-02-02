@@ -28,3 +28,8 @@ output/
 *.sublime-workspace
 .idea/
 .vscode/
+
+# Ignorar arquivos de imagem ou texto
+.png
+.txt
+.csv

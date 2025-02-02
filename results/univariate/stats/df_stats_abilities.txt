@@ -1,4 +1,0 @@
-count              801
-unique             482
-top       ['Levitate']
-freq                29

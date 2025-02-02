@@ -1,4 +1,0 @@
-count       801
-unique       18
-top       water
-freq        114
