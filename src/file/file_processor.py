@@ -2,7 +2,7 @@ import os
 
 
 GENERAL_FOLDER = "results/general"
-UNIVARIATE_FOLDER = "results/univariate"
+UNIVARIATE_STATS_FOLDER = "results/univariate/stats"
 
 
 class FileProcessor():
@@ -11,19 +11,23 @@ class FileProcessor():
         if not os.path.exists(GENERAL_FOLDER):
             os.makedirs(GENERAL_FOLDER)
 
-        if not os.path.exists(UNIVARIATE_FOLDER):
-            os.makedirs(UNIVARIATE_FOLDER)
+        if not os.path.exists(UNIVARIATE_STATS_FOLDER):
+            os.makedirs(UNIVARIATE_STATS_FOLDER)
 
     def write_df_infos_file(self, dataframe):
         if dataframe.empty:
             raise Exception("Dataframe sem dados para serem lidos")
-        with open(f'{GENERAL_FOLDER}/df_infos.txt', "w") as file:
+
+        path = f'{GENERAL_FOLDER}/df_infos.txt'
+        with open(path, "w") as file:
             dataframe.info(buf=file)
 
     def write_df_stats_file(self, dataframe):
         if dataframe.empty:
             raise Exception("Dataframe sem dados para serem lidos")
-        with open(f'{GENERAL_FOLDER}/df_stats.txt', "w") as file:
+
+        path = f'{GENERAL_FOLDER}/df_stats.txt'
+        with open(path, "w") as file:
             file.write(dataframe.describe().T.to_string())
 
     def write_df_column_stats(self, dataframe, column_name):
@@ -31,5 +35,6 @@ class FileProcessor():
             raise Exception("Dataframe sem dados para serem lidos")
 
         for data in dataframe:
-            with open(f'{UNIVARIATE_FOLDER}/df_stats_{data}.txt', "w") as file:
+            path = f'{UNIVARIATE_STATS_FOLDER}/df_stats_{data}.txt'
+            with open(path, "w") as file:
                 file.write(dataframe[data].describe().to_string())
