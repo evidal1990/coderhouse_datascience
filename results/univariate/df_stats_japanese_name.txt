@@ -1,0 +1,4 @@
+count                  801
+unique                 801
+top       Fushigidaneフシギダネ
+freq                     1

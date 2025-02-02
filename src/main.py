@@ -14,6 +14,7 @@ def main():
 
         FileProcessor().write_df_infos_file(dataframe=df)
         FileProcessor().write_df_stats_file(dataframe=df)
+        FileProcessor().write_df_column_stats(dataframe=df, column_name="")
 
     except Exception as exception:
         print(exception)
