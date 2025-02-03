@@ -1,4 +1,0 @@
-count                801
-unique               588
-top       Dragon Pokémon
-freq                   8

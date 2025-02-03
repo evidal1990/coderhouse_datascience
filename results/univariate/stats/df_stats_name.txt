@@ -1,4 +1,0 @@
-count           801
-unique          801
-top       Bulbasaur
-freq              1
