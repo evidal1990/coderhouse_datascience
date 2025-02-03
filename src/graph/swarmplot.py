@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-class BoxPlot:
+class Swarmplot:
 
     def __init__(
         self,
@@ -15,23 +15,18 @@ class BoxPlot:
         orient=None,
         color=None,
         palette=None,
-        saturation=0.75,
-        fill=True,
-        dodge="auto",
-        width=0.8,
-        gap=0,
-        whis=1.5,
-        linecolor="auto",
-        linewidth=None,
-        fliersize=None,
+        size=5,
+        edgecolor=None,
+        linewidth=0,
         hue_norm=None,
-        native_scale=False,
         log_scale=None,
+        native_scale=False,
         formatter=None,
         legend="auto",
+        warn_thresh=0.05,
         ax=None,
         title=None,
-        src=None
+        src=None,
     ):
         self.data = data
         self.x = x
@@ -42,20 +37,14 @@ class BoxPlot:
         self.orient = orient
         self.color = color
         self.palette = palette
-        self.saturation = saturation
-        self.fill = fill
-        self.dodge = dodge
-        self.width = width
-        self.gap = gap
-        self.whis = whis
-        self.linecolor = linecolor
-        self.linewidth = linewidth
-        self.fliersize = fliersize
+        self.size = size
+        self.edgecolor = edgecolor
         self.hue_norm = hue_norm
-        self.native_scale = native_scale
         self.log_scale = log_scale
+        self.native_scale = native_scale
         self.formatter = formatter
         self.legend = legend
+        self.warn_thresh = warn_thresh
         self.ax = ax
         self.title = title
         self.src = src
@@ -65,7 +54,7 @@ class BoxPlot:
             raise Exception("Dataframe não informado para desenhar o gráfico")
 
         plt.figure(figsize=(8, 6))
-        sns.boxplot(
+        sns.swarmplot(
             data=self.data,
             x=self.x,
             y=self.y,
@@ -75,22 +64,16 @@ class BoxPlot:
             orient=self.orient,
             color=self.color,
             palette=self.palette,
-            saturation=self.saturation,
-            fill=self.fill,
-            dodge=self.dodge,
-            width=self.width,
-            gap=self.gap,
-            whis=self.whis,
-            linecolor=self.linecolor,
-            linewidth=self.linewidth,
-            fliersize=self.fliersize,
+            size=self.size,
+            edgecolor=self.edgecolor,
             hue_norm=self.hue_norm,
-            native_scale=self.native_scale,
             log_scale=self.log_scale,
+            native_scale=self.native_scale,
             formatter=self.formatter,
             legend=self.legend,
+            warn_thresh=self.warn_thresh,
             ax=self.ax
         )
         plt.title(self.title)
-        plt.savefig(f'{self.src}{self.y}_boxplot.png',
+        plt.savefig(f'{self.src}{self.y}_swarmplot.png',
                     dpi=300, bbox_inches='tight')

@@ -4,10 +4,18 @@ import pandas as pandas
 from dotenv import load_dotenv
 from file.file_processor import FileProcessor
 from graph.graph_generator import GraphGenerator
-from const.analysis_type import AnalysisType
+
+CURRENT_COLUMN_ANALYSIS = "against_dark"
+ANALYSIS_TYPE = {
+    "UNIVARIATE": 0,
+    "BIVARIATE": 1,
+    "MULTIVARIATE": 2
+}
 
 
 def main():
+    os.environ["PYTHONDONTWRITEBYTECODE"] = "1"
+
     load_dotenv()
 
     try:
@@ -15,16 +23,27 @@ def main():
         # print(df.head())
 
         if os.getenv("ENABLE_DF_INFOS"):
-            FileProcessor().write_df_infos_file(dataframe=df)
+            FileProcessor().write_df_infos_file(
+                dataframe=df
+            )
         if os.getenv("ENABLE_DF_INFOS"):
-            FileProcessor().write_df_stats_file(dataframe=df)
+            FileProcessor().write_df_stats_file(
+                dataframe=df
+            )
         if os.getenv("ENABLE_DF_INFOS"):
-            FileProcessor().write_df_column_stats(dataframe=df)
+            FileProcessor().write_df_column_stats(
+                dataframe=df
+            )
 
         if os.getenv("ENABLE_BOX_PLOT_GRAPH"):
             graph_generator = GraphGenerator()
             graph_generator.draw_box_plot(
-                AnalysisType.UNIVARIATE, df, os.getenv("CURRENT_ANALYSIS"))
+                ANALYSIS_TYPE["UNIVARIATE"], df, CURRENT_COLUMN_ANALYSIS)
+
+        if os.getenv("ENABLE_SWARM_PLOT_GRAPH"):
+            graph_generator = GraphGenerator()
+            graph_generator.draw_swarmplot(
+                ANALYSIS_TYPE["UNIVARIATE"], df, CURRENT_COLUMN_ANALYSIS)
 
     except Exception as exception:
         print(exception)
