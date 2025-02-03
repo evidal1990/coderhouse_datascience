@@ -20,7 +20,9 @@ def main():
 
     try:
         df = pandas.read_csv(os.getenv("CURRENT_FILE_PATH"))
-        # print(df.head())
+        if not isinstance(df, pandas.core.frame.DataFrame):
+            raise Exception("O arquivo informado não é um dataframe.")
+        print(df.head())
 
         if bool(os.getenv("ENABLE_DF_INFOS")):
             FileProcessor().write_df_infos_file(
