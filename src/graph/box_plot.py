@@ -30,7 +30,8 @@ class BoxPlot:
         formatter=None,
         legend="auto",
         ax=None,
-        title=None
+        title=None,
+        src=None
     ):
         self.data = data
         self.x = x
@@ -57,9 +58,9 @@ class BoxPlot:
         self.legend = legend
         self.ax = ax
         self.title = title
+        self.src = src
 
     def draw(self):
-
         if self.data.empty:
             raise Exception("Dataframe não informado para desenhar o gráfico")
 
@@ -91,4 +92,4 @@ class BoxPlot:
             ax=self.ax
         )
         plt.title(self.title)
-        plt.savefig("box_plot.png", dpi=300, bbox_inches='tight')
+        plt.savefig(f'{self.src}{self.y}', dpi=300, bbox_inches='tight')

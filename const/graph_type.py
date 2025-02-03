@@ -1,7 +1,7 @@
-import enum
+from enum import Enum
 
 
-class GraphType(enum.Enum):
+class GraphType(Enum):
 
     BOX_PLOT = 0
     LINE_PLOT = 1
