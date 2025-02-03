@@ -30,6 +30,6 @@ output/
 .vscode/
 
 # Ignorar arquivos de imagem ou texto
-.png
-.txt
-.csv
+*.png
+*.txt
+*.csv
