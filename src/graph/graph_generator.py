@@ -31,6 +31,7 @@ class GraphGenerator:
             box_plot.draw()
 
     def draw_swarmplot(self, analysis_type, dataframe, column):
+        print(f'{os.getenv("RESULTS_UNIVARIATE_GRAPH_PATH")}')
         if analysis_type == ANALYSIS_TYPE["UNIVARIATE"]:
             swarmplot = Swarmplot(
                 data=dataframe,

@@ -22,25 +22,25 @@ def main():
         df = pandas.read_csv(os.getenv("CURRENT_FILE_PATH"))
         # print(df.head())
 
-        if os.getenv("ENABLE_DF_INFOS"):
+        if bool(os.getenv("ENABLE_DF_INFOS")):
             FileProcessor().write_df_infos_file(
                 dataframe=df
             )
-        if os.getenv("ENABLE_DF_INFOS"):
+        if bool(os.getenv("ENABLE_DF_INFOS")):
             FileProcessor().write_df_stats_file(
                 dataframe=df
             )
-        if os.getenv("ENABLE_DF_INFOS"):
+        if bool(os.getenv("ENABLE_DF_INFOS")):
             FileProcessor().write_df_column_stats(
                 dataframe=df
             )
 
-        if os.getenv("ENABLE_BOX_PLOT_GRAPH"):
+        if bool(os.getenv("ENABLE_BOX_PLOT_GRAPH")):
             graph_generator = GraphGenerator()
             graph_generator.draw_box_plot(
                 ANALYSIS_TYPE["UNIVARIATE"], df, CURRENT_COLUMN_ANALYSIS)
 
-        if os.getenv("ENABLE_SWARM_PLOT_GRAPH"):
+        if bool(os.getenv("ENABLE_SWARM_PLOT_GRAPH")):
             graph_generator = GraphGenerator()
             graph_generator.draw_swarmplot(
                 ANALYSIS_TYPE["UNIVARIATE"], df, CURRENT_COLUMN_ANALYSIS)

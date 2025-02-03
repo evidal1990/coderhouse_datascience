@@ -75,5 +75,5 @@ class Swarmplot:
             ax=self.ax
         )
         plt.title(self.title)
-        plt.savefig(f'{self.src}{self.y}_swarmplot.png',
+        plt.savefig(f'{self.src}/{self.y}_swarmplot.png',
                     dpi=300, bbox_inches='tight')
