@@ -2,7 +2,7 @@ import os
 
 
 GENERAL_FOLDER = "results/general"
-UNIVARIATE_STATS_FOLDER = "results/univariate/stats"
+UNIVARIATE_STATS_FOLDER = "results/stats"
 
 
 class FileProcessor():
