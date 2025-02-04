@@ -1,8 +1,9 @@
 import os
 
 
-GENERAL_FOLDER = "results/general"
-UNIVARIATE_STATS_FOLDER = "results/stats"
+RESULTS_FOLDER = "results/"
+GENERAL_FOLDER = f'{RESULTS_FOLDER}/general'
+UNIVARIATE_STATS_FOLDER = f'{RESULTS_FOLDER}/stats'
 
 
 class FileProcessor():
@@ -38,3 +39,16 @@ class FileProcessor():
             path = f'{UNIVARIATE_STATS_FOLDER}/df_stats_{data}.txt'
             with open(path, "w") as file:
                 file.write(dataframe[data].describe().to_string())
+
+    def write_df_column_value_counts(self, dataframe, column):
+        if dataframe.empty:
+            raise Exception("Dataframe sem dados para serem lidos")
+
+        if not os.path.exists(f'{RESULTS_FOLDER}/{column}'):
+            os.makedirs(f'{RESULTS_FOLDER}/{column}')
+
+        path = f'{RESULTS_FOLDER}/{column}/df_value_counts.txt'
+
+        with open(path, "w") as file:
+            value_counts = dataframe[column].value_counts().reset_index()
+            file.write(value_counts.to_string())
