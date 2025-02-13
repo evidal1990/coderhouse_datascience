@@ -1,26 +1,23 @@
 import os
 
 
-RESULTS_FOLDER = "results/"
-GENERAL_FOLDER = f'{RESULTS_FOLDER}/general'
+RESULTS_FOLDER = "results"
 
 
 class FileProcessor():
 
-    def __init__(self, dataframe=None, folder=None):
+    def __init__(self, dataframe=None, folder="general", column=None):
 
         self.df = dataframe
 
         if self.df.empty:
             raise Exception("Dataframe sem dados para serem lidos")
 
+        self.column = column
         self.folder = folder and f'{RESULTS_FOLDER}/{folder}'
 
         if not os.path.exists(self.folder):
             os.makedirs(self.folder)
-
-        if not os.path.exists(GENERAL_FOLDER):
-            os.makedirs(GENERAL_FOLDER)
 
     def write_df_infos_file(self):
 
@@ -44,5 +41,5 @@ class FileProcessor():
 
         path = f'{self.folder}/df_value_counts.txt'
         with open(path, "w") as file:
-            value_counts = self.df[self.folder].value_counts().reset_index()
+            value_counts = self.df[self.column].value_counts().reset_index()
             file.write(value_counts.to_string())

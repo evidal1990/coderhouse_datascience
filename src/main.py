@@ -1,5 +1,5 @@
 import os
-import json
+import sys
 import pandas as pandas
 
 from dotenv import load_dotenv
@@ -17,42 +17,94 @@ def main():
         if not isinstance(df, pandas.core.frame.DataFrame):
             raise Exception("O arquivo informado não é um dataframe.")
 
-        if json.loads(os.getenv("ENABLE_DF_INFOS").lower()):
-            file_processor = FileProcessor(
-                dataframe=df, folder=os.getenv("RESULTS_GENERAL_FOLDER"))
-            file_processor.write_df_infos_file()
+        show_initial_menu = True
+        while (show_initial_menu):
+            initial_menu_option = init_menu()
 
-        if json.loads(os.getenv("ENABLE_DF_STATS").lower()):
-            file_processor = FileProcessor(
-                dataframe=df, folder=os.getenv("RESULTS_GENERAL_FOLDER"))
-            file_processor.write_df_stats_file()
+            if (initial_menu_option == "1"):
+                init_file_analysis(df=df)
 
-        if json.loads(os.getenv("ENABLE_DF_COLUMNS_VALUE_COUNTS").lower()):
-            file_processor = FileProcessor(
-                dataframe=df, folder=CURRENT_COLUMN)
-            file_processor.write_df_column_value_counts()
+            if (initial_menu_option == "2"):
+                init_column_analysis(df=df)
 
-        if json.loads(os.getenv("ENABLE_DF_COLUMNS_STATS").lower()):
-            file_processor = FileProcessor(
-                dataframe=df, folder=CURRENT_COLUMN)
-            file_processor.write_df_column_stats(column=CURRENT_COLUMN)
+            if (initial_menu_option == "4"):
+                init_graph_generation(df=df)
 
-        if json.loads(os.getenv("ENABLE_BOX_PLOT_GRAPH").lower()):
-            graph_generator = GraphGenerator()
-            graph_generator.draw_box_plot(
-                dataframe=df,
-                column=CURRENT_COLUMN
-            )
+            if (initial_menu_option == "0"):
+                sys.exit()
 
-        if json.loads(os.getenv("ENABLE_SWARM_PLOT_GRAPH").lower()):
-            graph_generator = GraphGenerator()
-            graph_generator.draw_swarmplot(
-                dataframe=df,
-                column=CURRENT_COLUMN
-            )
+        # if json.loads(os.getenv("ENABLE_DF_COLUMNS_STATS").lower()):
+        #     file_processor = FileProcessor(
+        #         dataframe=df, folder=CURRENT_COLUMN)
+        #     file_processor.write_df_column_stats(column=CURRENT_COLUMN)
 
     except Exception as exception:
         print(exception)
+
+
+def init_menu():
+    print("\nMENU INICIAL")
+    print("0-Sair")
+    print("1-Gerar arquivo info() e describe()")
+    print("2-Gerar arquivo value_counts()")
+    print("3-Gerar arquivo describe() de uma coluna específica")
+    print("4-Gerar gráfico para análise")
+
+    return input("Escolha uma opção: ")
+
+
+def init_graph_menu():
+    print("\nMENU GRÁFICOS")
+    print("1-Boxplot")
+    print("2-Swarmplot")
+    print("3-Voltar ao menu inicial")
+
+    return input("Escolha uma opção: ")
+
+
+def init_file_analysis(df):
+    file_processor = FileProcessor(dataframe=df)
+
+    print("Gerando arquivos...")
+    file_processor.write_df_infos_file()
+    file_processor.write_df_stats_file()
+    print("Arquivos gerados com sucesso!")
+
+
+def init_column_analysis(df):
+    column_name = input("Informe uma coluna: ")
+
+    if column_name in df:
+        file_processor = FileProcessor(
+            dataframe=df, column="against_bug")
+        file_processor.write_df_column_value_counts()
+    else:
+        raise Exception("Coluna inexistente no dataframe")
+
+
+def init_graph_generation(df):
+    show_menu = True
+    while (show_menu):
+        menu_option = init_graph_menu()
+
+        graph_generator = GraphGenerator()
+        if (menu_option == "1"):
+            column_name = input("Informe uma coluna: ")
+            graph_generator.draw_box_plot(
+                dataframe=df,
+                column=column_name
+            )
+
+        if (menu_option == "2"):
+            column_name = input("Informe uma coluna: ")
+            graph_generator.draw_swarmplot(
+                dataframe=df,
+                column=column_name
+            )
+
+        if (menu_option == "3"):
+            show_menu = False
+            init_menu()
 
 
 main()
