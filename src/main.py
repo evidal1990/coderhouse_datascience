@@ -55,6 +55,7 @@ def init_menu():
 
 def init_graph_menu():
     print("\nMENU GRÁFICOS")
+    print("0-Sair")
     print("1-Boxplot")
     print("2-Swarmplot")
     print("3-Voltar ao menu inicial")
@@ -105,6 +106,9 @@ def init_graph_generation(df):
         if (menu_option == "3"):
             show_menu = False
             init_menu()
+
+        if (menu_option == "0"):
+            sys.exit()
 
 
 main()

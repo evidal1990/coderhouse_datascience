@@ -92,5 +92,5 @@ class BoxPlot:
             ax=self.ax
         )
         plt.title(self.title)
-        plt.savefig(f'{self.src}/{self.y}_boxplot.png',
+        plt.savefig(f'results/{self.src}/{self.y}_boxplot.png',
                     dpi=300, bbox_inches='tight')
