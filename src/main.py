@@ -5,6 +5,7 @@ import pandas as pandas
 from dotenv import load_dotenv
 from file.file_processor import FileProcessor
 from graph.graph_generator import GraphGenerator
+from menu.const.main_menu_option import MainMenuOption
 
 CURRENT_COLUMN = "against_dark"
 
@@ -21,17 +22,19 @@ def main():
         while (show_initial_menu):
             initial_menu_option = init_menu()
 
-            if (initial_menu_option == "1"):
+            if (initial_menu_option == MainMenuOption.EXIT):
+                sys.exit()
+
+            if (initial_menu_option == MainMenuOption.FILE_ANALYSIS):
                 init_file_analysis(df=df)
 
-            if (initial_menu_option == "2"):
+            if (initial_menu_option == MainMenuOption.COLUMN_VALUES):
                 init_column_analysis(df=df)
 
-            if (initial_menu_option == "4"):
+            if (initial_menu_option == MainMenuOption.GRAPH):
                 init_graph_generation(df=df)
 
-            if (initial_menu_option == "0"):
-                sys.exit()
+            
 
         # if json.loads(os.getenv("ENABLE_DF_COLUMNS_STATS").lower()):
         #     file_processor = FileProcessor(
