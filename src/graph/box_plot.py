@@ -1,3 +1,4 @@
+import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -92,5 +93,11 @@ class BoxPlot:
             ax=self.ax
         )
         plt.title(self.title)
-        plt.savefig(f'results/{self.src}/{self.y}_boxplot.png',
+        
+    def save(self):
+        path = f'results/{self.src}'
+        if not os.path.exists(path):
+            os.makedirs(path)
+
+        plt.savefig(f'{path}/{self.y}_boxplot.png',
                     dpi=300, bbox_inches='tight')
