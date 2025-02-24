@@ -33,13 +33,13 @@ class FileProcessor():
 
     def write_df_column_stats(self, column):
 
-        path = f'{self.folder}/df_stats.txt'
+        path = f'{self.folder}/df_{column}_stats.txt'
         with open(path, "w") as file:
             file.write(self.df[column].describe().to_string())
 
-    def write_df_column_value_counts(self):
+    def write_df_column_value_counts(self, column):
 
-        path = f'{self.folder}/df_value_counts.txt'
+        path = f'{self.folder}/df_{column}_value_counts.txt'
         with open(path, "w") as file:
-            value_counts = self.df[self.column].value_counts().reset_index()
+            value_counts = self.df[column].value_counts().reset_index()
             file.write(value_counts.to_string())

@@ -5,22 +5,11 @@ import pandas as pandas
 from dotenv import load_dotenv
 from file.file_processor import FileProcessor
 from graph.graph_generator import GraphGenerator
-from menu.const.main_menu_option import MainMenuOption
-
-from graph.box_plot import BoxPlot
-from graph.swarmplot import Swarmplot
-from graph.violinplot import ViolinPlot
+from menu.main_menu import MainMenu
 
 CURRENT_COLUMN = "against_dark"
 
 menu_options = {
-    "main": {
-        "exit": 0,
-        "file_analysis": 1,
-        "column_value_counts": 2,
-        "column_analysis": 3,
-        "graph": 4,
-    },
     "graph": {
         "exit": 0,
         "boxplot": 1,
@@ -39,42 +28,11 @@ def main():
         if not isinstance(df, pandas.core.frame.DataFrame):
             raise Exception("O arquivo informado não é um dataframe.")
 
-        print(menu_options.get("main").get("exit"))
-
-        show_initial_menu = True
-        while (show_initial_menu):
-            initial_menu_option = int(init_menu())
-
-            if (initial_menu_option == menu_options.get("main").get("exit")):
-                sys.exit()
-
-            if (initial_menu_option == menu_options.get("main").get("file_analysis")):
-                init_file_analysis(df=df)
-
-            if (initial_menu_option == menu_options.get("main").get("column_value_counts")):
-                init_column_analysis(df=df)
-
-            if (initial_menu_option == menu_options.get("main").get("graph")):
-                init_graph_generation(df=df)
-
-        # if json.loads(os.getenv("ENABLE_DF_COLUMNS_STATS").lower()):
-        #     file_processor = FileProcessor(
-        #         dataframe=df, folder=CURRENT_COLUMN)
-        #     file_processor.write_df_column_stats(column=CURRENT_COLUMN)
+        main_menu = MainMenu(df=df)
+        main_menu.print_options()
 
     except Exception as exception:
         print(exception)
-
-
-def init_menu():
-    print("\nMENU INICIAL")
-    print("0-Sair")
-    print("1-Gerar arquivo info() e describe()")
-    print("2-Gerar arquivo value_counts()")
-    print("3-Gerar arquivo describe() de uma coluna específica")
-    print("4-Gerar gráfico para análise")
-
-    return input("Escolha uma opção: ")
 
 
 def init_graph_menu():
@@ -86,26 +44,6 @@ def init_graph_menu():
     print("9-Voltar ao menu inicial")
 
     return input("Escolha uma opção: ")
-
-
-def init_file_analysis(df):
-    file_processor = FileProcessor(dataframe=df)
-
-    print("Gerando arquivos...")
-    file_processor.write_df_infos_file()
-    file_processor.write_df_stats_file()
-    print("Arquivos gerados com sucesso!")
-
-
-def init_column_analysis(df):
-    column_name = input("Informe uma coluna: ")
-
-    if column_name in df:
-        file_processor = FileProcessor(
-            dataframe=df, column="against_bug")
-        file_processor.write_df_column_value_counts()
-    else:
-        raise Exception("Coluna inexistente no dataframe")
 
 
 def init_graph_generation(df):
@@ -150,7 +88,7 @@ def init_graph_generation(df):
 
         if (menu_option == "9"):
             show_menu = False
-            init_menu()
+            pass
 
         if (menu_option == "0"):
             sys.exit()
