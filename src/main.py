@@ -3,7 +3,6 @@ import sys
 import pandas as pandas
 
 from dotenv import load_dotenv
-from file.file_processor import FileProcessor
 from graph.graph_generator import GraphGenerator
 from menu.main_menu import MainMenu
 
@@ -51,26 +50,6 @@ def init_graph_generation(df):
     while (show_menu):
         menu_option = init_graph_menu()
         graph_generator = GraphGenerator()
-
-        if (menu_option == "1"):
-            analysis_type = input("Informe o tipo de análise a ser feita: ")
-            if analysis_type == "univariada":
-                column_name_y = input("Informe a coluna (y): ")
-                graph_generator.draw_box_plot(
-                    dataframe=df,
-                    x=None,
-                    y=column_name_y,
-                    src=column_name_y
-                )
-            else:
-                column_name_x = input("Informe a coluna (x): ")
-                column_name_y = input("Informe a coluna (y): ")
-                graph_generator.draw_box_plot(
-                    dataframe=df,
-                    x=column_name_x,
-                    y=column_name_y,
-                    src=f'{column_name_x}_{column_name_y}'
-                )
 
         if (menu_option == "2"):
             column_name_y = input("Informe uma coluna: ")

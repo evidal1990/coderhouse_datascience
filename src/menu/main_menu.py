@@ -1,10 +1,10 @@
 import sys
 from file.file_processor import FileProcessor
-
+from menu.graph_menu import GraphMenu
 
 OPTION_EXIT = 0
 OPTION_FILE_ANALYSIS = 1
-OPTION_COLUMN_VALUE_COUNTS = 2
+OPTION_FILE_ANALYSIS = 2
 OPTION_COLUMN_ANALYSIS = 3
 OPTION_GRAPH = 4
 
@@ -25,7 +25,7 @@ class MainMenu():
 
             option = int(input("Escolha uma opção: "))
             if option == OPTION_EXIT:
-                self.exit()
+                sys.exit()
             elif option == OPTION_FILE_ANALYSIS:
                 file_processor = FileProcessor(dataframe=self.df)
 
@@ -33,7 +33,7 @@ class MainMenu():
                 file_processor.write_df_infos_file()
                 file_processor.write_df_stats_file()
                 print("Arquivos gerados com sucesso!")
-            elif option == OPTION_COLUMN_VALUE_COUNTS:
+            elif option == OPTION_FILE_ANALYSIS:
                 for data in self.df:
                     file_processor = FileProcessor(
                         dataframe=self.df, folder="columns")
@@ -44,4 +44,7 @@ class MainMenu():
                         dataframe=self.df, folder="stats")
                     file_processor.write_df_column_stats(column=data)
             elif option == OPTION_GRAPH:
-                pass
+                graph_menu = GraphMenu(df=self.df)
+                graph_menu.print_options()
+            else:
+                print("Opção inválida")
