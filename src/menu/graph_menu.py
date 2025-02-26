@@ -2,6 +2,7 @@ import sys
 from const.graph_menu_option import GraphMenuOption
 from graph.graph_generator import GraphGenerator
 from menu.boxplot_menu import BoxplotMenu
+from menu.swarmplot_menu import SwarmplotMenu
 
 
 class GraphMenu():
@@ -19,14 +20,16 @@ class GraphMenu():
         print("9-Voltar ao menu inicial")
 
         option = GraphMenuOption(input("Escolha uma opção: "))
+        print(option)
 
         if option == GraphMenuOption.EXIT:
             sys.exit()
         elif option == GraphMenuOption.BOXPLOT:
-            self.boxplot_menu = BoxplotMenu(df=self.df)
-            self.boxplot_menu.print_options()
+            boxplot_menu = BoxplotMenu(df=self.df)
+            boxplot_menu.print_options()
         elif option == GraphMenuOption.SWARMPLOT:
-            pass
+            swarmplot_menu = SwarmplotMenu(df=self.df)
+            swarmplot_menu.print_options()
         elif option == GraphMenuOption.VIOLINPLOT:
             pass
         elif option == GraphMenuOption.BACK:

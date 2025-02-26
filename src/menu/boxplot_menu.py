@@ -2,10 +2,6 @@ from graph.graph_generator import GraphGenerator
 from menu.analysis_type_menu import AnalysisTypeMenu
 from const.analysis_type_option import AnalysisTypeOption
 
-UNIVARIATE = 0
-BIVARIATE = 1
-MULTIVARIATE = 2
-
 
 class BoxplotMenu():
 
