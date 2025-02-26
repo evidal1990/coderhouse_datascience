@@ -1,12 +1,8 @@
 import sys
+from const.graph_menu_option import GraphMenuOption
 from graph.graph_generator import GraphGenerator
 from menu.boxplot_menu import BoxplotMenu
 
-OPTION_EXIT = 0
-OPTION_BOXPLOT = 1
-OPTION_SWARMPLOT = 2
-OPTION_VIOLINPLOT = 3
-OPTION_BACK = 9
 
 class GraphMenu():
 
@@ -22,12 +18,18 @@ class GraphMenu():
         print("3-Violinplot")
         print("9-Voltar ao menu inicial")
 
-        option = int(input("Escolha uma opção: "))
+        option = GraphMenuOption(input("Escolha uma opção: "))
 
-        if option == OPTION_EXIT:
+        if option == GraphMenuOption.EXIT:
             sys.exit()
-        elif option == OPTION_BOXPLOT:
+        elif option == GraphMenuOption.BOXPLOT:
             self.boxplot_menu = BoxplotMenu(df=self.df)
             self.boxplot_menu.print_options()
+        elif option == GraphMenuOption.SWARMPLOT:
+            pass
+        elif option == GraphMenuOption.VIOLINPLOT:
+            pass
+        elif option == GraphMenuOption.BACK:
+            pass
         else:
             pass

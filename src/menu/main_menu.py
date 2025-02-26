@@ -1,7 +1,7 @@
 import sys
 from file.file_processor import FileProcessor
 from menu.graph_menu import GraphMenu
-from menu.const.main_menu_option import MainMenuOption
+from const.main_menu_option import MainMenuOption
 
 
 class MainMenu():
@@ -19,7 +19,6 @@ class MainMenu():
             print("4-Gerar gráfico para análise")
 
             option = MainMenuOption(input("Escolha uma opção: "))
-            print(option)
             if option == MainMenuOption.EXIT:
                 sys.exit()
             elif option == MainMenuOption.FILE_ANALYSIS:

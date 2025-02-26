@@ -1,7 +1,7 @@
 from enum import Enum
 
 
-class AnalysisType(Enum):
+class AnalysisTypeOption(Enum):
     UNIVARIATE = 0
     BIVARIATE = 1
     MULTIVARIATE = 2
