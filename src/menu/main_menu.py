@@ -1,12 +1,7 @@
 import sys
 from file.file_processor import FileProcessor
 from menu.graph_menu import GraphMenu
-
-OPTION_EXIT = 0
-OPTION_FILE_ANALYSIS = 1
-OPTION_FILE_ANALYSIS = 2
-OPTION_COLUMN_ANALYSIS = 3
-OPTION_GRAPH = 4
+from menu.const.main_menu_option import MainMenuOption
 
 
 class MainMenu():
@@ -23,27 +18,28 @@ class MainMenu():
             print("3-Gerar arquivo describe() de uma coluna específica")
             print("4-Gerar gráfico para análise")
 
-            option = int(input("Escolha uma opção: "))
-            if option == OPTION_EXIT:
+            option = MainMenuOption(input("Escolha uma opção: "))
+            print(option)
+            if option == MainMenuOption.EXIT:
                 sys.exit()
-            elif option == OPTION_FILE_ANALYSIS:
+            elif option == MainMenuOption.FILE_ANALYSIS:
                 file_processor = FileProcessor(dataframe=self.df)
 
                 print("Gerando arquivos...")
                 file_processor.write_df_infos_file()
                 file_processor.write_df_stats_file()
                 print("Arquivos gerados com sucesso!")
-            elif option == OPTION_FILE_ANALYSIS:
+            elif option == MainMenuOption.COLUMN_ANALYSIS:
                 for data in self.df:
                     file_processor = FileProcessor(
                         dataframe=self.df, folder="columns")
                     file_processor.write_df_column_value_counts(column=data)
-            elif option == OPTION_COLUMN_ANALYSIS:
+            elif option == MainMenuOption.COLUMN_VALUES:
                 for data in self.df:
                     file_processor = FileProcessor(
                         dataframe=self.df, folder="stats")
                     file_processor.write_df_column_stats(column=data)
-            elif option == OPTION_GRAPH:
+            elif option == MainMenuOption.GRAPH:
                 graph_menu = GraphMenu(df=self.df)
                 graph_menu.print_options()
             else:
