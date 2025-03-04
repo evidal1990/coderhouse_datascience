@@ -1,5 +1,4 @@
 import os
-import sys
 import pandas as pandas
 
 from dotenv import load_dotenv
@@ -10,7 +9,7 @@ def main():
     load_dotenv(override=True)
 
     try:
-        df = pandas.read_csv(os.getenv("CURRENT_FILE_PATH"))
+        df = pandas.read_csv(os.getenv("CURRENT_FILE_PATH"), encoding="latin")
         if not isinstance(df, pandas.core.frame.DataFrame):
             raise Exception("O arquivo informado não é um dataframe.")
 
