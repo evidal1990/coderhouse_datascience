@@ -1,6 +1,5 @@
 import sys
 from const.graph_menu_option import GraphMenuOption
-from graph.graph_generator import GraphGenerator
 from menu.boxplot_menu import BoxplotMenu
 from menu.swarmplot_menu import SwarmplotMenu
 
@@ -9,7 +8,6 @@ class GraphMenu():
 
     def __init__(self, df):
         self.df = df
-        self.graph_generator = GraphGenerator()
 
     def print_options(self):
         print("\nMENU GRÁFICOS")

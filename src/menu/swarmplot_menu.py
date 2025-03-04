@@ -1,4 +1,4 @@
-from graph.swarmplot import Swarmplot
+from graph.graph import Graph
 
 
 class SwarmplotMenu:
@@ -12,11 +12,13 @@ class SwarmplotMenu:
         if column not in self.df.columns:
             print("Coluna não encontrada")
             return
-        swarmplot = Swarmplot(
+        swarmplot = Graph(
             data=self.df,
+            x=None,
             y=column,
             title=f'Swarmplot ({column})',
-            src=column
+            src=column,
+            type="swarmplot"
         )
-        swarmplot.draw()
+        swarmplot.draw_swarmplot()
         swarmplot.save()
