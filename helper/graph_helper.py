@@ -13,7 +13,6 @@ def draw_histplot(
     width=8,
     height=5,
     bins=20,
-    file_name=f'histplot_{pd.Timestamp.now().strftime("%Y%m%d%H%M%S")}'
 ):
     plt.figure(figsize=(width, height))
     sns.histplot(df, bins=bins)
@@ -25,13 +24,12 @@ def draw_histplot(
 
 def draw_boxplot(
     df,
-    title="Boxplot",
+    title="Gráfico de caixas",
     x_label="",
     y_label="Frequência",
     width=8,
     height=5,
     multipleLocator=1,
-    file_name=f'boxplot_{pd.Timestamp.now().strftime("%Y%m%d%H%M%S")}'
 ):
     plt.figure(figsize=(width, height))
     sns.boxplot(df)
@@ -42,4 +40,29 @@ def draw_boxplot(
         mticker.MultipleLocator(multipleLocator))
     plt.gca().yaxis.set_major_formatter(
         mticker.StrMethodFormatter("{x:.0f}"))
+    plt.show()
+
+
+def draw_barplot(
+    title="Gráfico de barras",
+    enable_lineplot=False,
+    x_label="",
+    y_label="",
+    width=8,
+    height=5,
+    x_value=None,
+    y_value=None,
+
+):
+    plt.figure(figsize=(width, height))
+    sns.barplot(x=x_value, y=y_value)
+    if enable_lineplot:
+        sns.lineplot(x=x_value, y=y_value, marker="o",
+                     color="red", linewidth=1)
+        plt.grid(axis="y", linestyle="--", alpha=0.5)
+    plt.title(title)
+    plt.ylabel(y_label)
+    plt.xlabel(x_label)
+    plt.xticks(rotation=45, ha="right")
+    plt.margins(x=0)
     plt.show()
