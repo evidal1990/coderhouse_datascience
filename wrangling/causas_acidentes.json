@@ -1,8 +1,11 @@
 {
     "Mal súbito do condutor": "Mal Súbito",
     "Não guardar distância de segurança": "Condutor deixou de manter distância do veículo da frente",
-    "Ingestão de álcool pelo condutor": "Ingestão de álcool e/ou substâncias psicoativas pelo condutor",
-    "Ingestão de Álcool": "Ingestão de álcool e/ou substâncias psicoativas pelo condutor",
+    "Ingestão de álcool pelo condutor": "Ingestão de álcool e/ou substâncias psicoativas",
+    "Ingestão de Álcool": "Ingestão de álcool e/ou substâncias psicoativas",
+    "Ingestão de substâncias psicoativas pelo condutor": "Ingestão de álcool e/ou substâncias psicoativas",
+    "Ingestão de álcool ou substâncias psicoativas pelo pedestre": "Ingestão de álcool e/ou substâncias psicoativas",
+    "Ingestão de álcool e/ou substâncias psicoativas pelo condutor": "Ingestão de álcool e/ou substâncias psicoativas",
     "Pedestre cruzava a pista fora da faixa": "Entrada inopinada do pedestre",
-    "Pedestre - Ingestão de álcool/ substâncias psicoativas": "Ingestão de álcool e/ou substâncias psicoativas pelo pedestre"
+    "Pedestre - Ingestão de álcool/ substâncias psicoativas": "Ingestão de álcool e/ou substâncias psicoativas"
 }
