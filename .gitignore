@@ -32,4 +32,6 @@ output/
 # Ignorar arquivos de imagem ou texto
 *.png
 *.txt
-*.csv
+acquisition/datatran2018_2024_v0.csv
+wrangling/datatran2018_2024_v0.csv
+analysis/datatran2018_2024_v2.csv
