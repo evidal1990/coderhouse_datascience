@@ -1,970 +1,970 @@
 tracado_via
-Reta
-Curva
-Não Informado
-Interseção de vias
-Rotatória
-Desvio Temporário
-Interseção de Vias
-Reta;Declive
-Retorno Regulamentado
-Reta;Aclive
-Curva;Declive
-Declive
-Aclive;Reta
-Declive;Reta
-Aclive
-Viaduto
-Reta;Interseção de Vias
-Declive;Curva
-Curva;Aclive
-Ponte
-Interseção de Vias;Reta
-Aclive;Curva
-Reta;Em Obras
-Reta;Retorno Regulamentado
-Reta;Ponte
-Em Obras;Reta
-Retorno Regulamentado;Reta
-Em Obras
-Ponte;Reta
-Curva;Interseção de Vias
-Reta;Viaduto
-Túnel
-Reta;Rotatória
-Interseção de Vias;Rotatória
-Interseção de Vias;Curva
-Viaduto;Reta
-Rotatória;Reta
-Curva;Viaduto
-Rotatória;Interseção de Vias
-Curva;Retorno Regulamentado
-Curva;Em Obras
-Retorno Regulamentado;Curva
-Curva;Rotatória
-Viaduto;Curva
-Interseção de Vias;Viaduto
-Reta;Declive;Interseção de Vias
-Interseção de Vias;Retorno Regulamentado
-Retorno Regulamentado;Interseção de Vias
-Desvio Temporário;Em Obras
-Em Obras;Curva
-Curva;Ponte
-Aclive;Interseção de Vias
-Declive;Interseção de Vias
-Declive;Interseção de Vias;Reta
-Reta;Interseção de Vias;Rotatória
-Interseção de Vias;Declive
-Reta;Interseção de Vias;Declive
-Reta;Declive;Em Obras
-Reta;Desvio Temporário;Em Obras
-Reta;Declive;Viaduto
-Viaduto;Interseção de Vias
-Reta;Desvio Temporário
-Reta;Interseção de Vias;Retorno Regulamentado
-Rotatória;Curva
-Reta;Retorno Regulamentado;Interseção de Vias
-Reta;Interseção de Vias;Aclive
-Declive;Reta;Interseção de Vias
-Reta;Aclive;Viaduto
-Aclive;Reta;Interseção de Vias
-Aclive;Viaduto
-Retorno Regulamentado;Reta;Interseção de Vias
-Em Obras;Reta;Declive
-Declive;Reta;Em Obras
-Reta;Declive;Retorno Regulamentado
-Viaduto;Reta;Aclive
-Ponte;Curva
-Aclive;Reta;Viaduto
-Reta;Em Obras;Desvio Temporário
-Reta;Aclive;Interseção de Vias
-Interseção de Vias;Reta;Declive
-Reta;Interseção de Vias;Em Obras
-Declive;Viaduto
-Rotatória;Reta;Interseção de Vias
-Em Obras;Desvio Temporário
-Reta;Aclive;Em Obras
-Interseção de Vias;Declive;Reta
-Retorno Regulamentado;Interseção de Vias;Reta
-Interseção de Vias;Em Obras
-Curva;Declive;Viaduto
-Reta;Em Obras;Declive
-Interseção de Vias;Aclive
-Viaduto;Aclive
-Declive;Em Obras
-Aclive;Interseção de Vias;Reta
-Aclive;Reta;Em Obras
-Interseção de Vias;Rotatória;Reta
-Interseção de Vias;Reta;Retorno Regulamentado
-Aclive;Em Obras;Reta
-Curva;Declive;Em Obras
-Interseção de Vias;Aclive;Reta
-Declive;Em Obras;Reta
-Em Obras;Aclive;Reta
-Aclive;Viaduto;Reta
-Curva;Interseção de Vias;Declive
-Declive;Ponte
-Rotatória;Retorno Regulamentado
-Desvio Temporário;Em Obras;Reta
-Rotatória;Viaduto
-Em Obras;Declive;Reta
-Viaduto;Aclive;Reta
-Em Obras;Reta;Desvio Temporário
-Declive;Retorno Regulamentado
-Interseção de Vias;Retorno Regulamentado;Reta
-Retorno Regulamentado;Rotatória
-Interseção de Vias;Reta;Rotatória
-Reta;Rotatória;Interseção de Vias
-Reta;Interseção de Vias;Viaduto
-Declive;Retorno Regulamentado;Reta
-Viaduto;Declive
-Retorno Regulamentado;Declive
-Em Obras;Declive;Curva
-Em Obras;Declive
-Em Obras;Interseção de Vias
-Reta;Retorno Regulamentado;Declive
-Interseção de Vias;Em Obras;Reta
-Reta;Em Obras;Aclive
-Desvio Temporário;Reta
-Desvio Temporário;Reta;Em Obras
-Em Obras;Desvio Temporário;Reta
-Reta;Declive;Ponte
-Declive;Viaduto;Reta
-Retorno Regulamentado;Reta;Declive
-Aclive;Em Obras
-Interseção de Vias;Reta;Em Obras
-Viaduto;Reta;Declive
-Reta;Viaduto;Aclive
-Declive;Ponte;Reta
-Em Obras;Reta;Aclive
-Declive;Reta;Ponte
-Rotatória;Em Obras
-Ponte;Declive
-Reta;Em Obras;Interseção de Vias
-Interseção de Vias;Reta;Aclive
-Aclive;Retorno Regulamentado
-Curva;Aclive;Interseção de Vias
-Declive;Reta;Retorno Regulamentado
-Retorno Regulamentado;Reta;Aclive
-Curva;Ponte;Declive
-Curva;Aclive;Viaduto
-Declive;Curva;Viaduto
-Curva;Declive;Ponte
-Reta;Túnel
-Reta;Ponte;Declive
-Curva;Desvio Temporário
-Aclive;Curva;Viaduto
-Em Obras;Rotatória
-Curva;Interseção de Vias;Rotatória
-Curva;Declive;Interseção de Vias
-Interseção de Vias;Reta;Viaduto
-Reta;Aclive;Retorno Regulamentado
-Viaduto;Rotatória
-Interseção de Vias;Declive;Curva
-Declive;Curva;Ponte
-Rotatória;Interseção de Vias;Reta
-Curva;Desvio Temporário;Em Obras
-Declive;Interseção de Vias;Curva
-Curva;Viaduto;Declive
-Curva;Viaduto;Aclive
-Em Obras;Interseção de Vias;Reta
-Aclive;Curva;Interseção de Vias
-Desvio Temporário;Curva;Em Obras
-Reta;Retorno Regulamentado;Aclive
-Interseção de Vias;Curva;Aclive
-Retorno Regulamentado;Declive;Reta
-Rotatória;Declive
-Viaduto;Aclive;Curva
-Reta;Viaduto;Declive
-Curva;Aclive;Em Obras
-Ponte;Reta;Declive
-Em Obras;Reta;Interseção de Vias
-Declive;Reta;Viaduto
-Ponte;Declive;Curva
-Viaduto;Declive;Curva
-Em Obras;Curva;Declive
-Declive;Viaduto;Curva
-Viaduto;Curva;Aclive
-Viaduto;Retorno Regulamentado
-Aclive;Reta;Retorno Regulamentado
-Retorno Regulamentado;Viaduto
-Curva;Declive;Retorno Regulamentado
-Rotatória;Viaduto;Interseção de Vias
-Curva;Interseção de Vias;Aclive
-Declive;Curva;Interseção de Vias
-Viaduto;Declive;Reta
-Curva;Em Obras;Declive
-Reta;Em Obras;Ponte
-Curva;Em Obras;Desvio Temporário
-Em Obras;Aclive
-Viaduto;Curva;Declive
-Declive;Curva;Em Obras
-Ponte;Declive;Reta
-Aclive;Ponte;Reta
-Interseção de Vias;Curva;Retorno Regulamentado
-Declive;Rotatória
-Aclive;Curva;Retorno Regulamentado
-Ponte;Curva;Declive
-Em Obras;Viaduto;Reta
-Reta;Ponte;Aclive
-Declive;Ponte;Curva
-Em Obras;Ponte;Reta
-Aclive;Rotatória
-Desvio Temporário;Em Obras;Curva
-Retorno Regulamentado;Declive;Curva
-Declive;Curva;Retorno Regulamentado
-Em Obras;Retorno Regulamentado;Reta
-Rotatória;Interseção de Vias;Viaduto
-Aclive;Interseção de Vias;Curva
-Rotatória;Aclive
-Aclive;Curva;Em Obras
-Reta;Viaduto;Interseção de Vias
-Aclive;Viaduto;Curva
-Declive;Retorno Regulamentado;Curva
-Interseção de Vias;Rotatória;Curva
-Em Obras;Retorno Regulamentado
-Retorno Regulamentado;Aclive;Reta
-Retorno Regulamentado;Interseção de Vias;Rotatória
-Interseção de Vias;Viaduto;Reta
-Curva;Aclive;Retorno Regulamentado
-Retorno Regulamentado;Curva;Declive
-Curva;Retorno Regulamentado;Interseção de Vias
-Interseção de Vias;Curva;Declive
-Interseção de Vias;Rotatória;Viaduto
-Retorno Regulamentado;Aclive
-Retorno Regulamentado;Curva;Aclive
-Em Obras;Curva;Desvio Temporário
-Aclive;Retorno Regulamentado;Curva
-Curva;Rotatória;Interseção de Vias
-Curva;Túnel
-Reta;Ponte;Em Obras
-Viaduto;Reta;Interseção de Vias
-Viaduto;Reta;Retorno Regulamentado
-Interseção de Vias;Aclive;Curva
-Curva;Rotatória;Declive
-Reta;Em Obras;Viaduto
-Declive;Em Obras;Curva
-Em Obras;Viaduto
-Reta;Em Obras;Retorno Regulamentado
-Em Obras;Desvio Temporário;Curva
-Ponte;Reta;Aclive
-Viaduto;Reta;Em Obras
-Curva;Retorno Regulamentado;Declive
-Desvio Temporário;Curva
-Interseção de Vias;Rotatória;Declive
-Aclive;Retorno Regulamentado;Reta
-Viaduto;Retorno Regulamentado;Curva
-Retorno Regulamentado;Reta;Em Obras
-Aclive;Reta;Ponte
-Túnel;Reta
-Curva;Retorno Regulamentado;Aclive
-Curva;Interseção de Vias;Viaduto
-Ponte;Em Obras;Reta
-Em Obras;Reta;Viaduto
-Interseção de Vias;Curva;Rotatória
-Aclive;Reta;Rotatória
-Reta;Retorno Regulamentado;Rotatória
-Reta;Declive;Rotatória
-Curva;Interseção de Vias;Retorno Regulamentado
-Em Obras;Curva;Aclive
-Curva;Em Obras;Aclive
-Rotatória;Retorno Regulamentado;Reta;Interseção de Vias
-Rotatória;Interseção de Vias;Retorno Regulamentado
-Curva;Viaduto;Retorno Regulamentado
-Interseção de Vias;Curva;Viaduto
-Reta;Rotatória;Retorno Regulamentado
-Em Obras;Aclive;Curva
-Túnel;Curva
-Declive;Interseção de Vias;Rotatória
-Viaduto;Interseção de Vias;Reta
-Rotatória;Retorno Regulamentado;Interseção de Vias
-Retorno Regulamentado;Aclive;Curva
-Aclive;Em Obras;Curva
-Aclive;Desvio Temporário;Curva
-Rotatória;Reta;Declive
-Interseção de Vias;Viaduto;Rotatória
-Aclive;Ponte
-Reta;Aclive;Ponte
-Rotatória;Interseção de Vias;Curva
-Interseção de Vias;Retorno Regulamentado;Curva
-Viaduto;Interseção de Vias;Curva
-Viaduto;Interseção de Vias;Rotatória
-Declive;Reta;Rotatória
-Declive;Rotatória;Reta
-Rotatória;Retorno Regulamentado;Reta
-Interseção de Vias;Desvio Temporário
-Rotatória;Reta;Retorno Regulamentado
-Reta;Rotatória;Aclive
-Em Obras;Reta;Retorno Regulamentado
-Interseção de Vias;Declive;Retorno Regulamentado
-Retorno Regulamentado;Interseção de Vias;Curva
-Curva;Desvio Temporário;Declive
-Retorno Regulamentado;Curva;Viaduto
-Interseção de Vias;Ponte
-Retorno Regulamentado;Em Obras
-Interseção de Vias;Rotatória;Em Obras
-Viaduto;Em Obras
-Viaduto;Rotatória;Interseção de Vias
-Retorno Regulamentado;Rotatória;Reta
-Interseção de Vias;Rotatória;Retorno Regulamentado
-Reta;Rotatória;Em Obras
-Viaduto;Declive;Interseção de Vias
-Desvio Temporário;Reta;Declive;Em Obras
-Ponte;Aclive;Reta
-Em Obras;Ponte
-Curva;Aclive;Rotatória
-Rotatória;Curva;Interseção de Vias
-Reta;Viaduto;Em Obras
-Reta;Rotatória;Viaduto
-Reta;Aclive;Desvio Temporário
-Interseção de Vias;Túnel
-Declive;Rotatória;Curva
-Reta;Retorno Regulamentado;Em Obras
-Curva;Ponte;Aclive
-Declive;Rotatória;Interseção de Vias
-Declive;Desvio Temporário
-Curva;Aclive;Ponte
-Ponte;Aclive
-Ponte;Reta;Em Obras
-Interseção de Vias;Retorno Regulamentado;Viaduto
-Viaduto;Curva;Retorno Regulamentado
-Rotatória;Aclive;Reta
-Aclive;Rotatória;Curva
-Curva;Desvio Temporário;Aclive
-Rotatória;Viaduto;Curva
-Rotatória;Viaduto;Reta
-Interseção de Vias;Rotatória;Reta;Retorno Regulamentado
-Ponte;Interseção de Vias
-Interseção de Vias;Desvio Temporário;Reta
-Curva;Interseção de Vias;Em Obras
-Reta;Em Obras;Interseção de Vias;Desvio Temporário
-Interseção de Vias;Viaduto;Retorno Regulamentado
-Em Obras;Reta;Ponte
-Reta;Rotatória;Declive
-Retorno Regulamentado;Viaduto;Interseção de Vias
-Desvio Temporário;Em Obras;Aclive
-Declive;Desvio Temporário;Reta;Em Obras
-Rotatória;Declive;Interseção de Vias
-Curva;Viaduto;Interseção de Vias
-Interseção de Vias;Viaduto;Curva
-Reta;Interseção de Vias;Desvio Temporário
-Retorno Regulamentado;Em Obras;Curva
-Retorno Regulamentado;Viaduto;Curva
-Aclive;Interseção de Vias;Retorno Regulamentado
-Rotatória;Interseção de Vias;Em Obras
-Em Obras;Declive;Desvio Temporário
-Viaduto;Ponte
-Reta;Desvio Temporário;Declive
-Curva;Retorno Regulamentado;Viaduto
-Aclive;Ponte;Curva
-Reta;Retorno Regulamentado;Interseção de Vias;Rotatória
-Interseção de Vias;Rotatória;Aclive
-Rotatória;Em Obras;Reta
-Em Obras;Rotatória;Reta
-Em Obras;Interseção de Vias;Curva
-Rotatória;Curva;Aclive
-Rotatória;Interseção de Vias;Retorno Regulamentado;Reta
-Curva;Rotatória;Retorno Regulamentado
-Interseção de Vias;Reta;Retorno Regulamentado;Rotatória
-Retorno Regulamentado;Curva;Interseção de Vias
-Desvio Temporário;Em Obras;Declive
-Reta;Declive;Interseção de Vias;Rotatória
-Retorno Regulamentado;Túnel
-Rotatória;Aclive;Curva
-Interseção de Vias;Reta;Ponte
-Declive;Desvio Temporário;Em Obras
-Em Obras;Interseção de Vias;Desvio Temporário
-Desvio Temporário;Em Obras;Reta;Aclive
-Interseção de Vias;Retorno Regulamentado;Declive;Curva
-Interseção de Vias;Reta;Rotatória;Declive
-Curva;Rotatória;Em Obras
-Declive;Interseção de Vias;Em Obras;Reta
-Em Obras;Declive;Interseção de Vias;Reta
-Reta;Em Obras;Aclive;Interseção de Vias
-Rotatória;Em Obras;Retorno Regulamentado;Interseção de Vias
-Viaduto;Declive;Reta;Em Obras
-Interseção de Vias;Retorno Regulamentado;Declive;Reta
-Rotatória;Reta;Aclive
-Interseção de Vias;Viaduto;Reta;Aclive
-Declive;Interseção de Vias;Em Obras
-Desvio Temporário;Declive;Em Obras;Reta
-Reta;Desvio Temporário;Ponte
-Curva;Declive;Rotatória;Interseção de Vias
-Em Obras;Rotatória;Viaduto
-Aclive;Curva;Rotatória
-Desvio Temporário;Curva;Aclive;Em Obras
-Interseção de Vias;Em Obras;Rotatória
-Reta;Declive;Retorno Regulamentado;Interseção de Vias
-Aclive;Desvio Temporário
-Aclive;Viaduto;Reta;Em Obras
-Viaduto;Curva;Interseção de Vias;Rotatória
-Curva;Aclive;Viaduto;Retorno Regulamentado
-Reta;Interseção de Vias;Retorno Regulamentado;Aclive
-Em Obras;Interseção de Vias;Rotatória
-Em Obras;Declive;Curva;Desvio Temporário
-Rotatória;Reta;Interseção de Vias;Declive
-Desvio Temporário;Em Obras;Viaduto
-Em Obras;Viaduto;Aclive
-Declive;Interseção de Vias;Viaduto
-Curva;Interseção de Vias;Retorno Regulamentado;Declive
-Rotatória;Declive;Reta;Interseção de Vias
-Reta;Desvio Temporário;Em Obras;Declive
-Viaduto;Reta;Aclive;Em Obras
-Rotatória;Desvio Temporário
-Aclive;Reta;Desvio Temporário
-Viaduto;Curva;Rotatória
-Em Obras;Rotatória;Curva
-Interseção de Vias;Curva;Declive;Viaduto
-Em Obras;Interseção de Vias;Curva;Rotatória
-Declive;Viaduto;Retorno Regulamentado
-Reta;Em Obras;Desvio Temporário;Ponte
-Ponte;Em Obras;Curva;Declive;Desvio Temporário
-Viaduto;Interseção de Vias;Reta;Declive
-Declive;Curva;Rotatória
-Interseção de Vias;Retorno Regulamentado;Rotatória
-Declive;Desvio Temporário;Em Obras;Curva
-Viaduto;Retorno Regulamentado;Interseção de Vias
-Declive;Rotatória;Retorno Regulamentado
-Retorno Regulamentado;Interseção de Vias;Em Obras
-Interseção de Vias;Aclive;Viaduto
-Curva;Declive;Retorno Regulamentado;Viaduto
-Desvio Temporário;Declive
-Reta;Interseção de Vias;Rotatória;Viaduto
-Interseção de Vias;Retorno Regulamentado;Desvio Temporário;Em Obras
-Aclive;Reta;Interseção de Vias;Em Obras
-Curva;Viaduto;Interseção de Vias;Declive
-Desvio Temporário;Interseção de Vias;Em Obras
-Interseção de Vias;Retorno Regulamentado;Declive
-Reta;Declive;Interseção de Vias;Viaduto
-Reta;Interseção de Vias;Rotatória;Retorno Regulamentado
-Interseção de Vias;Reta;Viaduto;Declive
-Reta;Aclive;Interseção de Vias;Viaduto
-Rotatória;Declive;Reta
-Retorno Regulamentado;Interseção de Vias;Viaduto
-Reta;Declive;Túnel
-Desvio Temporário;Declive;Em Obras
-Reta;Aclive;Rotatória
-Reta;Interseção de Vias;Em Obras;Declive
-Em Obras;Declive;Desvio Temporário;Reta
-Desvio Temporário;Declive;Curva
-Túnel;Interseção de Vias
-Declive;Em Obras;Desvio Temporário;Reta
-Viaduto;Interseção de Vias;Declive
-Reta;Interseção de Vias;Retorno Regulamentado;Rotatória
-Declive;Interseção de Vias;Curva;Retorno Regulamentado
-Curva;Em Obras;Interseção de Vias
-Rotatória;Reta;Em Obras
-Declive;Retorno Regulamentado;Interseção de Vias
-Retorno Regulamentado;Declive;Interseção de Vias
-Rotatória;Interseção de Vias;Declive
-Declive;Desvio Temporário;Em Obras;Reta
-Reta;Declive;Interseção de Vias;Retorno Regulamentado
-Declive;Em Obras;Viaduto
-Desvio Temporário;Declive;Reta;Em Obras
-Em Obras;Aclive;Curva;Desvio Temporário
-Viaduto;Reta;Rotatória
-Túnel;Reta;Declive
-Retorno Regulamentado;Reta;Rotatória
-Declive;Em Obras;Desvio Temporário
-Reta;Retorno Regulamentado;Aclive;Interseção de Vias
-Declive;Desvio Temporário;Reta
-Interseção de Vias;Declive;Rotatória
-Ponte;Em Obras
-Reta;Em Obras;Desvio Temporário;Aclive
-Viaduto;Rotatória;Reta
-Interseção de Vias;Reta;Aclive;Viaduto
-Rotatória;Declive;Curva;Interseção de Vias
-Reta;Viaduto;Interseção de Vias;Rotatória
-Interseção de Vias;Viaduto;Curva;Aclive
-Rotatória;Viaduto;Interseção de Vias;Reta
-Reta;Aclive;Retorno Regulamentado;Interseção de Vias
-Em Obras;Interseção de Vias;Aclive
-Em Obras;Interseção de Vias;Declive
-Curva;Em Obras;Ponte
-Rotatória;Em Obras;Interseção de Vias;Viaduto
-Viaduto;Túnel
-Aclive;Interseção de Vias;Rotatória;Reta
-Declive;Rotatória;Retorno Regulamentado;Reta;Interseção de Vias
-Viaduto;Aclive;Interseção de Vias
-Desvio Temporário;Reta;Em Obras;Aclive
-Curva;Aclive;Rotatória;Interseção de Vias
-Viaduto;Interseção de Vias;Em Obras
-Desvio Temporário;Aclive;Em Obras
-Curva;Ponte;Em Obras
-Rotatória;Aclive;Retorno Regulamentado;Curva
-Interseção de Vias;Ponte;Reta
-Declive;Curva;Em Obras;Desvio Temporário
-Em Obras;Aclive;Rotatória;Reta
-Rotatória;Aclive;Curva;Viaduto
-Curva;Retorno Regulamentado;Interseção de Vias;Declive
-Interseção de Vias;Viaduto;Declive
-Em Obras;Reta;Declive;Desvio Temporário
-Túnel;Reta;Interseção de Vias
-Desvio Temporário;Em Obras;Viaduto;Interseção de Vias
-Em Obras;Desvio Temporário;Curva;Declive;Interseção de Vias
-Reta;Em Obras;Declive;Interseção de Vias
-Ponte;Reta;Declive;Desvio Temporário;Em Obras
-Em Obras;Curva;Ponte
-Ponte;Aclive;Curva
-Em Obras;Retorno Regulamentado;Rotatória;Interseção de Vias
-Declive;Interseção de Vias;Em Obras;Curva
-Retorno Regulamentado;Rotatória;Curva
-Viaduto;Curva;Ponte;Interseção de Vias
-Em Obras;Rotatória;Viaduto;Curva
-Curva;Rotatória;Aclive;Interseção de Vias
-Interseção de Vias;Rotatória;Retorno Regulamentado;Curva
-Aclive;Interseção de Vias;Curva;Retorno Regulamentado
-Interseção de Vias;Em Obras;Reta;Retorno Regulamentado
-Declive;Em Obras;Viaduto;Reta
-Rotatória;Curva;Declive;Retorno Regulamentado
-Declive;Retorno Regulamentado;Reta;Interseção de Vias
-Desvio Temporário;Aclive;Reta
-Aclive;Reta;Em Obras;Desvio Temporário
-Reta;Interseção de Vias;Em Obras;Desvio Temporário
-Reta;Declive;Rotatória;Viaduto
-Retorno Regulamentado;Declive;Interseção de Vias;Reta
-Retorno Regulamentado;Aclive;Interseção de Vias;Rotatória;Curva
-Ponte;Interseção de Vias;Reta
-Rotatória;Reta;Declive;Interseção de Vias;Viaduto
-Reta;Interseção de Vias;Aclive;Viaduto
-Curva;Aclive;Desvio Temporário;Em Obras
-Túnel;Curva;Retorno Regulamentado
-Desvio Temporário;Ponte;Em Obras;Reta
-Viaduto;Aclive;Interseção de Vias;Curva;Retorno Regulamentado
-Interseção de Vias;Retorno Regulamentado;Em Obras
-Interseção de Vias;Rotatória;Viaduto;Curva
-Em Obras;Declive;Reta;Viaduto
-Interseção de Vias;Reta;Em Obras;Viaduto
-Interseção de Vias;Reta;Em Obras;Aclive;Retorno Regulamentado
-Aclive;Reta;Retorno Regulamentado;Interseção de Vias
-Curva;Declive;Viaduto;Interseção de Vias
-Ponte;Curva;Em Obras;Aclive
-Em Obras;Declive;Reta;Interseção de Vias
-Reta;Interseção de Vias;Rotatória;Aclive
-Retorno Regulamentado;Aclive;Reta;Em Obras
-Em Obras;Declive;Desvio Temporário;Curva
-Reta;Desvio Temporário;Em Obras;Declive;Viaduto
-Reta;Desvio Temporário;Em Obras;Viaduto
-Em Obras;Ponte;Desvio Temporário
-Retorno Regulamentado;Declive;Viaduto;Reta
-Reta;Em Obras;Rotatória;Retorno Regulamentado
-Aclive;Rotatória;Retorno Regulamentado;Reta
-Túnel;Curva;Declive
-Ponte;Reta;Desvio Temporário
-Retorno Regulamentado;Aclive;Interseção de Vias;Reta
-Curva;Retorno Regulamentado;Declive;Em Obras
-Declive;Reta;Em Obras;Viaduto
-Em Obras;Curva;Interseção de Vias
-Declive;Desvio Temporário;Curva
-Interseção de Vias;Retorno Regulamentado;Túnel
-Interseção de Vias;Aclive;Rotatória
-Aclive;Em Obras;Interseção de Vias;Curva
-Interseção de Vias;Retorno Regulamentado;Aclive
-Em Obras;Retorno Regulamentado;Curva
-Desvio Temporário;Em Obras;Reta;Ponte
-Em Obras;Interseção de Vias;Retorno Regulamentado
-Interseção de Vias;Reta;Viaduto;Retorno Regulamentado
-Interseção de Vias;Viaduto;Retorno Regulamentado;Curva;Ponte
-Desvio Temporário;Reta;Ponte;Em Obras
-Viaduto;Curva;Declive;Interseção de Vias
-Reta;Retorno Regulamentado;Ponte
-Declive;Curva;Em Obras;Retorno Regulamentado
-Interseção de Vias;Declive;Retorno Regulamentado;Curva
-Desvio Temporário;Curva;Em Obras;Aclive
-Reta;Interseção de Vias;Declive;Em Obras
-Desvio Temporário;Retorno Regulamentado;Interseção de Vias;Em Obras
-Curva;Túnel;Declive
-Viaduto;Reta;Aclive;Interseção de Vias
-Em Obras;Reta;Interseção de Vias;Declive
-Rotatória;Retorno Regulamentado;Interseção de Vias;Declive
-Rotatória;Interseção de Vias;Em Obras;Reta
-Retorno Regulamentado;Reta;Em Obras;Rotatória
-Viaduto;Retorno Regulamentado;Interseção de Vias;Em Obras
-Interseção de Vias;Rotatória;Reta;Em Obras
-Aclive;Túnel;Reta
-Retorno Regulamentado;Curva;Ponte
-Interseção de Vias;Retorno Regulamentado;Reta;Viaduto
-Interseção de Vias;Túnel;Reta;Declive
-Em Obras;Reta;Desvio Temporário;Aclive
-Ponte;Declive;Interseção de Vias
-Declive;Reta;Interseção de Vias;Viaduto
-Declive;Ponte;Em Obras
-Interseção de Vias;Declive;Em Obras
-Declive;Curva;Em Obras;Ponte
-Curva;Viaduto;Retorno Regulamentado;Rotatória
-Declive;Viaduto;Reta;Interseção de Vias;Rotatória
-Curva;Desvio Temporário;Em Obras;Ponte
-Em Obras;Reta;Ponte;Desvio Temporário
-Reta;Declive;Desvio Temporário;Em Obras
-Declive;Em Obras;Interseção de Vias;Rotatória;Desvio Temporário
-Interseção de Vias;Viaduto;Reta;Retorno Regulamentado
-Interseção de Vias;Reta;Declive;Rotatória;Em Obras
-Reta;Túnel;Em Obras;Desvio Temporário
-Retorno Regulamentado;Reta;Em Obras;Desvio Temporário;Interseção de Vias
-Viaduto;Retorno Regulamentado;Reta;Aclive
-Aclive;Interseção de Vias;Viaduto;Rotatória
-Túnel;Interseção de Vias;Viaduto;Aclive;Reta
-Aclive;Interseção de Vias;Reta;Retorno Regulamentado
-Desvio Temporário;Túnel;Interseção de Vias;Em Obras;Ponte;Declive;Retorno Regulamentado;Viaduto
-Retorno Regulamentado;Curva;Declive;Viaduto
-Aclive;Curva;Interseção de Vias;Viaduto
-Desvio Temporário;Em Obras;Viaduto;Curva
-Aclive;Interseção de Vias;Viaduto;Reta
-Em Obras;Retorno Regulamentado;Curva;Rotatória
-Em Obras;Curva;Desvio Temporário;Interseção de Vias;Rotatória
-Declive;Curva;Interseção de Vias;Rotatória
-Aclive;Curva;Interseção de Vias;Viaduto;Rotatória
-Ponte;Interseção de Vias;Rotatória;Viaduto;Retorno Regulamentado
-Interseção de Vias;Rotatória;Curva;Retorno Regulamentado
-Interseção de Vias;Rotatória;Reta;Em Obras;Retorno Regulamentado
-Aclive;Desvio Temporário;Viaduto;Em Obras;Curva
-Declive;Retorno Regulamentado;Curva;Viaduto
-Túnel;Reta;Aclive
-Curva;Retorno Regulamentado;Interseção de Vias;Aclive
-Aclive;Em Obras;Desvio Temporário;Interseção de Vias;Curva
-Viaduto;Interseção de Vias;Aclive
-Interseção de Vias;Declive;Reta;Em Obras
-Interseção de Vias;Viaduto;Declive;Reta
-Interseção de Vias;Declive;Reta;Viaduto
-Ponte;Viaduto;Curva;Interseção de Vias;Aclive
-Aclive;Desvio Temporário;Em Obras;Reta
-Viaduto;Em Obras;Curva
-Declive;Retorno Regulamentado;Curva;Interseção de Vias
-Interseção de Vias;Rotatória;Viaduto;Em Obras
-Aclive;Reta;Viaduto;Rotatória
-Retorno Regulamentado;Declive;Rotatória
-Reta;Interseção de Vias;Viaduto;Rotatória
-Aclive;Viaduto;Em Obras
-Em Obras;Desvio Temporário;Interseção de Vias;Reta
-Rotatória;Retorno Regulamentado;Desvio Temporário;Em Obras
-Rotatória;Viaduto;Reta;Interseção de Vias
-Curva;Desvio Temporário;Declive;Em Obras
-Curva;Desvio Temporário;Viaduto
-Declive;Curva;Interseção de Vias;Viaduto
-Desvio Temporário;Reta;Interseção de Vias;Em Obras
-Interseção de Vias;Em Obras;Declive;Reta
-Aclive;Interseção de Vias;Rotatória;Viaduto
-Aclive;Retorno Regulamentado;Curva;Interseção de Vias
-Rotatória;Viaduto;Em Obras
-Declive;Reta;Em Obras;Desvio Temporário
-Desvio Temporário;Rotatória;Interseção de Vias;Em Obras;Retorno Regulamentado;Viaduto
-Interseção de Vias;Retorno Regulamentado;Viaduto;Reta
-Declive;Viaduto;Curva;Em Obras
-Aclive;Retorno Regulamentado;Reta;Interseção de Vias
-Ponte;Em Obras;Curva
-Aclive;Em Obras;Viaduto;Reta
-Interseção de Vias;Rotatória;Retorno Regulamentado;Reta
-Interseção de Vias;Curva;Rotatória;Retorno Regulamentado
-Reta;Rotatória;Interseção de Vias;Viaduto
-Curva;Interseção de Vias;Retorno Regulamentado;Em Obras
-Rotatória;Interseção de Vias;Viaduto;Retorno Regulamentado
-Em Obras;Desvio Temporário;Curva;Aclive
-Rotatória;Desvio Temporário;Declive;Interseção de Vias;Em Obras;Reta
-Interseção de Vias;Em Obras;Desvio Temporário
-Reta;Declive;Interseção de Vias;Viaduto;Em Obras
-Retorno Regulamentado;Reta;Interseção de Vias;Declive
-Ponte;Viaduto;Reta
-Reta;Declive;Interseção de Vias;Viaduto;Retorno Regulamentado
-Rotatória;Retorno Regulamentado;Viaduto
-Curva;Viaduto;Rotatória;Interseção de Vias
-Reta;Em Obras;Viaduto;Rotatória
-Curva;Desvio Temporário;Interseção de Vias
-Retorno Regulamentado;Rotatória;Interseção de Vias
-Declive;Interseção de Vias;Reta;Em Obras
-Em Obras;Declive;Retorno Regulamentado;Reta
-Desvio Temporário;Retorno Regulamentado;Reta;Interseção de Vias;Em Obras
-Retorno Regulamentado;Viaduto;Reta
-Ponte;Desvio Temporário;Em Obras;Reta
-Reta;Desvio Temporário;Em Obras;Declive;Interseção de Vias
-Em Obras;Curva;Declive;Desvio Temporário
-Em Obras;Curva;Ponte;Aclive
-Rotatória;Em Obras;Interseção de Vias
-Reta;Declive;Interseção de Vias;Rotatória;Retorno Regulamentado
-Em Obras;Viaduto;Curva
-Reta;Em Obras;Interseção de Vias;Declive
-Curva;Declive;Interseção de Vias;Viaduto
-Rotatória;Curva;Interseção de Vias;Retorno Regulamentado
-Em Obras;Declive;Ponte
-Declive;Reta;Em Obras;Ponte
-Em Obras;Ponte;Reta;Desvio Temporário
-Curva;Interseção de Vias;Aclive;Retorno Regulamentado
-Curva;Aclive;Em Obras;Viaduto
-Curva;Em Obras;Desvio Temporário;Declive
-Aclive;Curva;Ponte
-Túnel;Curva;Interseção de Vias
-Retorno Regulamentado;Túnel;Curva
-Rotatória;Reta;Interseção de Vias;Retorno Regulamentado
-Aclive;Rotatória;Retorno Regulamentado
-Rotatória;Retorno Regulamentado;Reta;Interseção de Vias;Aclive
-Rotatória;Declive;Viaduto;Interseção de Vias
-Reta;Ponte;Desvio Temporário;Em Obras
-Reta;Declive;Viaduto;Interseção de Vias
-Em Obras;Desvio Temporário;Retorno Regulamentado
-Reta;Declive;Interseção de Vias;Em Obras
-Reta;Túnel;Declive
-Interseção de Vias;Rotatória;Aclive;Reta
-Retorno Regulamentado;Em Obras;Reta;Interseção de Vias
-Interseção de Vias;Curva;Aclive;Viaduto
-Interseção de Vias;Em Obras;Retorno Regulamentado
-Em Obras;Viaduto;Desvio Temporário;Aclive
-Declive;Interseção de Vias;Rotatória;Curva
-Interseção de Vias;Ponte;Reta;Em Obras;Declive
-Desvio Temporário;Reta;Aclive
-Curva;Ponte;Viaduto
-Aclive;Viaduto;Interseção de Vias;Reta
-Reta;Desvio Temporário;Aclive;Em Obras
-Interseção de Vias;Curva;Declive;Retorno Regulamentado
-Interseção de Vias;Reta;Em Obras;Declive
-Viaduto;Em Obras;Aclive
-Viaduto;Em Obras;Desvio Temporário
-Rotatória;Aclive;Reta;Interseção de Vias
-Desvio Temporário;Curva;Interseção de Vias
-Interseção de Vias;Em Obras;Reta;Rotatória;Viaduto
-Curva;Declive;Em Obras;Desvio Temporário
-Retorno Regulamentado;Viaduto;Interseção de Vias;Declive
-Aclive;Interseção de Vias;Rotatória
-Ponte;Em Obras;Desvio Temporário
-Viaduto;Túnel;Interseção de Vias;Reta;Declive;Rotatória
-Declive;Interseção de Vias;Curva;Viaduto
-Viaduto;Retorno Regulamentado;Reta;Declive
-Reta;Desvio Temporário;Interseção de Vias;Ponte;Rotatória;Em Obras
-Em Obras;Viaduto;Aclive;Reta
-Reta;Aclive;Viaduto;Desvio Temporário;Em Obras
-Viaduto;Interseção de Vias;Curva;Aclive
-Declive;Viaduto;Em Obras;Reta
-Retorno Regulamentado;Desvio Temporário;Curva;Em Obras;Interseção de Vias;Túnel;Rotatória;Viaduto;Ponte;Declive
-Reta;Ponte;Desvio Temporário
-Viaduto;Em Obras;Reta;Retorno Regulamentado
-Ponte;Em Obras;Retorno Regulamentado;Declive
-Desvio Temporário;Rotatória
-Retorno Regulamentado;Interseção de Vias;Reta;Declive
-Rotatória;Curva;Declive;Interseção de Vias
-Túnel;Aclive;Interseção de Vias;Em Obras;Desvio Temporário;Rotatória;Retorno Regulamentado;Viaduto;Curva
-Aclive;Rotatória;Reta
-Interseção de Vias;Retorno Regulamentado;Reta;Em Obras
-Rotatória;Em Obras;Reta;Interseção de Vias
-Retorno Regulamentado;Interseção de Vias;Reta;Viaduto;Declive
-Viaduto;Reta;Retorno Regulamentado;Interseção de Vias
-Curva;Viaduto;Aclive;Interseção de Vias
-Rotatória;Aclive;Retorno Regulamentado;Reta
-Reta;Interseção de Vias;Desvio Temporário;Em Obras
-Em Obras;Desvio Temporário;Declive;Curva
-Desvio Temporário;Ponte;Em Obras
-Rotatória;Curva;Aclive;Interseção de Vias
-Interseção de Vias;Reta;Aclive;Retorno Regulamentado
-Desvio Temporário;Em Obras;Ponte
-Viaduto;Rotatória;Retorno Regulamentado;Interseção de Vias
-Rotatória;Em Obras;Viaduto
-Curva;Declive;Desvio Temporário;Em Obras
-Interseção de Vias;Em Obras;Rotatória;Reta
-Interseção de Vias;Em Obras;Declive
-Declive;Reta;Interseção de Vias;Em Obras
-Retorno Regulamentado;Reta;Declive;Interseção de Vias
-Reta;Viaduto;Retorno Regulamentado
-Retorno Regulamentado;Ponte;Reta
-Viaduto;Interseção de Vias;Túnel
-Aclive;Reta;Desvio Temporário;Em Obras
-Interseção de Vias;Viaduto;Curva;Retorno Regulamentado;Aclive
-Reta;Desvio Temporário;Retorno Regulamentado
-Reta;Em Obras;Declive;Túnel
-Retorno Regulamentado;Aclive;Interseção de Vias
-Declive;Reta;Desvio Temporário;Em Obras
-Em Obras;Curva;Retorno Regulamentado
-Reta;Ponte;Viaduto
-Rotatória;Aclive;Interseção de Vias
-Declive;Curva;Túnel
-Em Obras;Retorno Regulamentado;Declive;Reta
-Interseção de Vias;Em Obras;Reta;Viaduto
-Declive;Túnel
-Desvio Temporário;Reta;Declive
-Reta;Rotatória;Declive;Retorno Regulamentado
-Curva;Viaduto;Declive;Interseção de Vias;Retorno Regulamentado
-Interseção de Vias;Viaduto;Aclive;Reta
-Interseção de Vias;Em Obras;Aclive;Curva
-Reta;Rotatória;Desvio Temporário;Interseção de Vias
-Desvio Temporário;Aclive
-Aclive;Em Obras;Reta;Interseção de Vias
-Curva;Rotatória;Aclive
-Interseção de Vias;Curva;Túnel;Aclive
-Viaduto;Curva;Interseção de Vias
-Em Obras;Ponte;Curva
-Rotatória;Interseção de Vias;Viaduto;Reta
-Declive;Reta;Em Obras;Interseção de Vias
-Desvio Temporário;Viaduto;Reta;Em Obras;Interseção de Vias
-Interseção de Vias;Reta;Declive;Em Obras
-Desvio Temporário;Curva;Declive
-Reta;Retorno Regulamentado;Declive;Interseção de Vias
-Interseção de Vias;Retorno Regulamentado;Aclive;Viaduto
-Em Obras;Curva;Rotatória;Interseção de Vias
-Interseção de Vias;Em Obras;Viaduto
-Em Obras;Desvio Temporário;Rotatória
-Em Obras;Desvio Temporário;Reta;Declive
-Viaduto;Túnel;Curva;Interseção de Vias
-Interseção de Vias;Curva;Desvio Temporário;Em Obras
-Retorno Regulamentado;Rotatória;Declive;Reta
-Desvio Temporário;Curva;Declive;Em Obras
-Em Obras;Viaduto;Desvio Temporário;Curva
-Retorno Regulamentado;Viaduto;Curva;Rotatória;Interseção de Vias
-Em Obras;Reta;Interseção de Vias;Aclive
-Rotatória;Viaduto;Curva;Aclive
-Ponte;Em Obras;Rotatória;Desvio Temporário;Curva;Aclive;Interseção de Vias;Retorno Regulamentado;Viaduto;Túnel
-Reta;Túnel;Aclive;Interseção de Vias
-Curva;Desvio Temporário;Aclive;Em Obras
-Rotatória;Retorno Regulamentado;Curva
-Desvio Temporário;Reta;Aclive;Ponte;Em Obras
-Interseção de Vias;Reta;Viaduto;Declive;Retorno Regulamentado
-Interseção de Vias;Aclive;Viaduto;Reta
-Retorno Regulamentado;Desvio Temporário;Em Obras;Reta
-Em Obras;Rotatória;Interseção de Vias;Aclive;Reta;Viaduto;Retorno Regulamentado;Ponte;Túnel;Desvio Temporário
-Retorno Regulamentado;Aclive;Reta;Interseção de Vias
-Desvio Temporário;Reta;Interseção de Vias
-Rotatória;Curva;Viaduto;Interseção de Vias
-Rotatória;Reta;Desvio Temporário
-Reta;Em Obras;Rotatória
-Em Obras;Retorno Regulamentado;Reta;Interseção de Vias
-Interseção de Vias;Desvio Temporário;Reta;Em Obras
-Viaduto;Em Obras;Curva;Interseção de Vias;Desvio Temporário;Rotatória
-Ponte;Curva;Declive;Viaduto
-Retorno Regulamentado;Rotatória;Em Obras;Reta
-Desvio Temporário;Interseção de Vias
-Desvio Temporário;Em Obras;Interseção de Vias
-Rotatória;Retorno Regulamentado;Viaduto;Interseção de Vias
-Rotatória;Túnel;Em Obras;Ponte;Declive;Viaduto;Retorno Regulamentado;Curva
-Declive;Reta;Retorno Regulamentado;Interseção de Vias
-Aclive;Viaduto;Retorno Regulamentado;Curva
-Retorno Regulamentado;Em Obras;Desvio Temporário
-Interseção de Vias;Rotatória;Desvio Temporário;Em Obras;Retorno Regulamentado;Aclive;Túnel;Viaduto;Ponte;Reta
-Curva;Viaduto;Interseção de Vias;Rotatória
-Reta;Túnel;Em Obras
-Aclive;Ponte;Viaduto
-Desvio Temporário;Aclive;Em Obras;Reta
-Desvio Temporário;Em Obras;Curva;Declive
-Reta;Interseção de Vias;Em Obras;Aclive
-Reta;Viaduto;Retorno Regulamentado;Interseção de Vias
-Retorno Regulamentado;Curva;Interseção de Vias;Aclive
-Retorno Regulamentado;Rotatória;Declive
-Reta;Declive;Viaduto;Retorno Regulamentado
-Reta;Em Obras;Aclive;Desvio Temporário
-Retorno Regulamentado;Reta;Túnel
-Interseção de Vias;Rotatória;Reta;Viaduto;Retorno Regulamentado
-Rotatória;Viaduto;Declive
-Reta;Interseção de Vias;Viaduto;Declive
-Curva;Rotatória;Declive;Viaduto
-Em Obras;Interseção de Vias;Curva;Desvio Temporário
-Retorno Regulamentado;Aclive;Viaduto;Curva
-Em Obras;Reta;Viaduto;Aclive
-Reta;Em Obras;Ponte;Declive;Desvio Temporário
-Em Obras;Declive;Reta;Desvio Temporário
-Curva;Interseção de Vias;Viaduto;Rotatória
-Desvio Temporário;Rotatória;Em Obras
-Em Obras;Ponte;Viaduto;Reta
-Declive;Curva;Em Obras;Desvio Temporário;Ponte
-Em Obras;Interseção de Vias;Viaduto;Reta
-Aclive;Retorno Regulamentado;Interseção de Vias;Reta
-Interseção de Vias;Declive;Viaduto
-Reta;Desvio Temporário;Aclive
-Curva;Interseção de Vias;Retorno Regulamentado;Viaduto
-Curva;Interseção de Vias;Viaduto;Retorno Regulamentado
-Desvio Temporário;Viaduto;Reta;Em Obras
-Em Obras;Retorno Regulamentado;Interseção de Vias;Reta
-Curva;Aclive;Retorno Regulamentado;Viaduto
-Declive;Interseção de Vias;Reta;Viaduto
-Aclive;Retorno Regulamentado;Viaduto;Reta
-Reta;Interseção de Vias;Rotatória;Declive
-Reta;Aclive;Desvio Temporário;Viaduto
-Desvio Temporário;Aclive;Curva;Em Obras
-Reta;Aclive;Interseção de Vias;Rotatória
-Interseção de Vias;Curva;Em Obras
-Ponte;Reta;Interseção de Vias
-Declive;Viaduto;Interseção de Vias
-Rotatória;Desvio Temporário;Em Obras
-Reta;Em Obras;Viaduto;Aclive
-Declive;Em Obras;Reta;Desvio Temporário
-Ponte;Reta;Declive;Interseção de Vias
-Rotatória;Curva;Retorno Regulamentado
-Viaduto;Rotatória;Interseção de Vias;Em Obras
-Reta;Interseção de Vias;Declive;Desvio Temporário;Em Obras
-Interseção de Vias;Em Obras;Declive;Viaduto
-Desvio Temporário;Reta;Aclive;Interseção de Vias
-Reta;Retorno Regulamentado;Viaduto;Interseção de Vias
-Rotatória;Reta;Viaduto
-Interseção de Vias;Em Obras;Curva;Aclive
-Rotatória;Declive;Viaduto
-Reta;Interseção de Vias;Declive;Retorno Regulamentado
-Curva;Túnel;Declive;Retorno Regulamentado
-Aclive;Curva;Interseção de Vias;Rotatória
-Desvio Temporário;Declive;Retorno Regulamentado
-Viaduto;Declive;Curva;Em Obras
-Reta;Retorno Regulamentado;Viaduto
-Interseção de Vias;Reta;Viaduto;Em Obras
-Reta;Ponte;Interseção de Vias;Viaduto
-Viaduto;Rotatória;Curva;Em Obras
-Reta;Declive;Interseção de Vias;Rotatória;Ponte;Em Obras
-Rotatória;Viaduto;Interseção de Vias;Retorno Regulamentado;Reta
-Reta;Retorno Regulamentado;Aclive;Interseção de Vias;Em Obras
-Declive;Interseção de Vias;Ponte
-Declive;Retorno Regulamentado;Rotatória
-Reta;Retorno Regulamentado;Interseção de Vias;Viaduto;Em Obras
-Ponte;Curva;Em Obras
-Retorno Regulamentado;Em Obras;Declive;Curva
-Curva;Rotatória;Viaduto
-Interseção de Vias;Retorno Regulamentado;Reta;Declive
-Retorno Regulamentado;Interseção de Vias;Curva;Rotatória
-Reta;Em Obras;Túnel;Desvio Temporário
-Reta;Em Obras;Viaduto;Interseção de Vias
-Reta;Aclive;Em Obras;Desvio Temporário
-Interseção de Vias;Reta;Túnel
-Reta;Em Obras;Desvio Temporário;Interseção de Vias
-Interseção de Vias;Desvio Temporário;Em Obras;Reta
-Reta;Viaduto;Túnel;Declive;Interseção de Vias
-Rotatória;Aclive;Retorno Regulamentado
-Rotatória;Curva;Em Obras
-Retorno Regulamentado;Aclive;Viaduto
-Interseção de Vias;Aclive;Retorno Regulamentado
-Em Obras;Túnel;Reta;Desvio Temporário
-Interseção de Vias;Declive;Retorno Regulamentado;Viaduto
-Curva;Desvio Temporário;Em Obras;Aclive
-Aclive;Ponte;Curva;Viaduto
-Interseção de Vias;Reta;Viaduto;Rotatória
-Reta;Interseção de Vias;Viaduto;Em Obras
-Viaduto;Rotatória;Curva;Interseção de Vias
-Retorno Regulamentado;Interseção de Vias;Reta;Rotatória
-Em Obras;Rotatória;Retorno Regulamentado
-Ponte;Curva;Aclive
-Declive;Desvio Temporário;Reta;Interseção de Vias
-Reta;Interseção de Vias;Declive;Viaduto
-Desvio Temporário;Reta;Declive;Ponte;Em Obras
-Reta;Interseção de Vias;Aclive;Retorno Regulamentado
-Interseção de Vias;Aclive;Reta;Rotatória
-Retorno Regulamentado;Túnel;Declive
-Curva;Retorno Regulamentado;Rotatória
-Em Obras;Viaduto;Reta;Túnel
-Desvio Temporário;Aclive;Reta;Em Obras
-Interseção de Vias;Reta;Rotatória;Em Obras
-Declive;Interseção de Vias;Rotatória;Reta
-Declive;Interseção de Vias;Viaduto;Reta
-Declive;Interseção de Vias;Reta;Rotatória
-Reta;Viaduto;Aclive;Em Obras
-Retorno Regulamentado;Interseção de Vias;Viaduto;Reta
-Declive;Curva;Desvio Temporário
-Declive;Interseção de Vias;Viaduto;Ponte
-Retorno Regulamentado;Rotatória;Interseção de Vias;Reta
-Aclive;Curva;Viaduto;Retorno Regulamentado;Rotatória
-Declive;Rotatória;Reta;Retorno Regulamentado
-Declive;Curva;Rotatória;Viaduto
-Interseção de Vias;Curva;Rotatória;Em Obras;Viaduto
-Curva;Interseção de Vias;Ponte
-Interseção de Vias;Reta;Retorno Regulamentado;Declive
-Desvio Temporário;Em Obras;Retorno Regulamentado
-Interseção de Vias;Reta;Declive;Rotatória
-Interseção de Vias;Declive;Viaduto;Túnel;Reta
-Interseção de Vias;Em Obras;Desvio Temporário;Reta
-Interseção de Vias;Reta;Desvio Temporário
-Curva;Interseção de Vias;Rotatória;Em Obras;Declive
-Interseção de Vias;Aclive;Reta;Viaduto
-Interseção de Vias;Rotatória;Reta;Declive
-Viaduto;Declive;Em Obras
-Interseção de Vias;Aclive;Reta;Retorno Regulamentado;Rotatória
-Curva;Ponte;Interseção de Vias;Aclive;Em Obras;Viaduto
-Curva;Túnel;Viaduto
-Retorno Regulamentado;Curva;Interseção de Vias;Viaduto
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+401
+402
+403
+404
+405
+406
+407
+408
+409
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+433
+434
+435
+436
+437
+438
+439
+440
+441
+442
+443
+444
+445
+446
+447
+448
+449
+450
+451
+452
+453
+454
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+469
+470
+471
+472
+473
+474
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+486
+487
+488
+489
+490
+491
+492
+493
+494
+495
+496
+497
+498
+499
+500
+501
+502
+503
+504
+505
+506
+507
+508
+509
+510
+511
+512
+513
+514
+515
+516
+517
+518
+519
+520
+521
+522
+523
+524
+525
+526
+527
+528
+529
+530
+531
+532
+533
+534
+535
+536
+537
+538
+539
+540
+541
+542
+543
+544
+545
+546
+547
+548
+549
+550
+551
+552
+553
+554
+555
+556
+557
+558
+559
+560
+561
+562
+563
+564
+565
+566
+567
+568
+569
+570
+571
+572
+573
+574
+575
+576
+577
+578
+579
+580
+581
+582
+583
+584
+585
+586
+587
+588
+589
+590
+591
+592
+593
+594
+595
+596
+597
+598
+599
+600
+601
+602
+603
+604
+605
+606
+607
+608
+609
+610
+611
+612
+613
+614
+615
+616
+617
+618
+619
+620
+621
+622
+623
+624
+625
+626
+627
+628
+629
+630
+631
+632
+633
+634
+635
+636
+637
+638
+639
+640
+641
+642
+643
+644
+645
+646
+647
+648
+649
+650
+651
+652
+653
+654
+655
+656
+657
+658
+659
+660
+661
+662
+663
+664
+665
+666
+667
+668
+669
+670
+671
+672
+673
+674
+675
+676
+677
+678
+679
+680
+681
+682
+683
+684
+685
+686
+687
+688
+689
+690
+691
+692
+693
+694
+695
+696
+697
+698
+699
+700
+701
+702
+703
+704
+705
+706
+707
+708
+709
+710
+711
+712
+713
+714
+715
+716
+717
+718
+719
+720
+721
+722
+723
+724
+725
+726
+727
+728
+729
+730
+731
+732
+733
+734
+735
+736
+737
+738
+739
+740
+741
+742
+743
+744
+745
+746
+747
+748
+749
+750
+751
+752
+753
+754
+755
+756
+757
+758
+759
+760
+761
+762
+763
+764
+765
+766
+767
+768
+769
+770
+771
+772
+773
+774
+775
+776
+777
+778
+779
+780
+781
+782
+783
+784
+785
+786
+787
+788
+789
+790
+791
+792
+793
+794
+795
+796
+797
+798
+799
+800
+801
+802
+803
+804
+805
+806
+807
+808
+809
+810
+811
+812
+813
+814
+815
+816
+817
+818
+819
+820
+821
+822
+823
+824
+825
+826
+827
+828
+829
+830
+831
+832
+833
+834
+835
+836
+837
+838
+839
+840
+841
+842
+843
+844
+845
+846
+847
+848
+849
+850
+851
+852
+853
+854
+855
+856
+857
+858
+859
+860
+861
+862
+863
+864
+865
+866
+867
+868
+869
+870
+871
+872
+873
+874
+875
+876
+877
+878
+879
+880
+881
+882
+883
+884
+885
+886
+887
+888
+889
+890
+891
+892
+893
+894
+895
+896
+897
+898
+899
+900
+901
+902
+903
+904
+905
+906
+907
+908
+909
+910
+911
+912
+913
+914
+915
+916
+917
+918
+919
+920
+921
+922
+923
+924
+925
+926
+927
+928
+929
+930
+931
+932
+933
+934
+935
+936
+937
+938
+939
+940
+941
+942
+943
+944
+945
+946
+947
+948
+949
+950
+951
+952
+953
+954
+955
+956
+957
+958
+959
+960
+961
+962
+963
+964
+965
+966
+967
+968
